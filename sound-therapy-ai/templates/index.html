@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Therapy AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sound Therapy AI</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/player">Play Therapy Sounds</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Sound Therapy</h2>
+            <p>Discover the benefits of sound therapy and how it can help improve your well-being.</p>
+        </section>
+        <section>
+            <h2>Get Started</h2>
+            <p>Click below to start your sound therapy session.</p>
+            <a href="/player" class="button">Start Therapy</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sound Therapy AI. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
