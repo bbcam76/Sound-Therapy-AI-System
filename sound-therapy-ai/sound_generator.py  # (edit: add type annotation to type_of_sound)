@@ -1,0 +1,9 @@
+def generate_sound(type_of_sound: str) -> None:
+    pass
+
+class SoundGenerator:
+    def __init__(self, type_of_sound: str):
+        self.type_of_sound = type_of_sound
+
+    def play(self) -> None:
+        print(f"Playing sound: {self.type_of_sound}")

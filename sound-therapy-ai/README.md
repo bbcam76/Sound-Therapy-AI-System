@@ -1,9 +1,11 @@
 # Sound Therapy AI
 
 ## Overview
+
 Sound Therapy AI is a web application designed to provide users with personalized sound therapy sessions. The application utilizes AI to recommend soundscapes and tones based on user preferences and conditions, promoting relaxation and well-being.
 
 ## Project Structure
+
 The project consists of the following files and directories:
 
 - `app.py`: Main entry point of the application, responsible for initializing the web server and handling routes.
@@ -22,29 +24,36 @@ The project consists of the following files and directories:
 - `README.md`: Documentation for the project.
 
 ## Setup Instructions
+
 1. Clone the repository:
-   ```
+
+   ```bash
    git clone <repository-url>
    cd sound-therapy-ai
    ```
 
 2. Install the required dependencies:
-   ```
+
+   ```bash
    pip install -r requirements.txt
    ```
 
 3. Run the application:
-   ```
+
+   ```bash
    python app.py
    ```
 
 ## Usage
+
 - Visit the landing page to explore sound therapy options.
 - Use the audio player to listen to recommended soundscapes and tones.
 - Customize your experience based on personal preferences.
 
 ## Contributing
+
 Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.

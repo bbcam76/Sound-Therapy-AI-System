@@ -1,0 +1,5 @@
+def generate_sound(type_of_sound: str) -> str:
+    return f"Generating sound of type: {type_of_sound}"
+
+def test_generate_sound():
+    assert generate_sound("test") == "Generating sound of type: test"
