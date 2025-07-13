@@ -30,6 +30,3 @@ Python 3.10+
 GitHub Codespaces or Docker
 PortAudio library
 Web browser with Web Audio API support
-
-# Setup in GitHub Codespaces
-Create a new Codespace
