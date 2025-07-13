@@ -1,4 +1,8 @@
 # Sound-Therapy-AI-System
+
+
+![image1](20250713_010836.jpg)
+
 Sound Therapy AI is an end-to-end system that generates personalized therapeutic sound frequencies.
 
 # 1. Component Specifications
